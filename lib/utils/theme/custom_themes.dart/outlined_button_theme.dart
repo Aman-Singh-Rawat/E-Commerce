@@ -23,7 +23,7 @@ class TOutlinedButtonTheme {
   static final darkTOutlinedButtonTheme = OutlinedButtonThemeData(
     style: ElevatedButton.styleFrom(
       foregroundColor: Colors.white,
-      side: const BorderSide(color: Colors.blueAccent),
+      side: const BorderSide(color: Colors.white),
       padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
       textStyle: const TextStyle(
         fontSize: 16,

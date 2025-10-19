@@ -14,7 +14,7 @@ class TImages {
   // -- Welcome Screen Image [Used in Login & SignUp]
   static const String tWelcomeScreenImage = "assets/images/welcome_images/welcome-screen-image.png";
   static const String tLogoImage = "assets/images/profile/logo.png";
-
+ 
   // -- SOCIAL Images
   static const String tFacebookLogo = "assets/logo/facebook-logo.png";
   static const String tGoogleLogo = "assets/logo/google-logo.png";
@@ -106,5 +106,9 @@ class TImages {
 
   //Profile
   static const String user = "assets/images/content/user.png";
+
+  //App Logo
+  static const String lightAppLogo = "assets/logo/t-store-splash-logo-white.png";
+  static const String darkAppLogo = "assets/logo/t-store-splash-logo-black.png";
 
 }
