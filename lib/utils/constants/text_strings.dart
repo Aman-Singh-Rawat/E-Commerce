@@ -216,4 +216,6 @@ static const String changeYourPasswordSubTitle =
 static const String emailNotReceivedMessage =
     "Didn’t get the email? Check your junk/spam or resend it.";
 
+    static const String signupTitle = "Let's create your account";
+
 }
