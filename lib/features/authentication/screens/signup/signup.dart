@@ -1,7 +1,6 @@
 import 'package:e_commerce/common/widgets/login_signup/form_divider.dart';
 import 'package:e_commerce/common/widgets/login_signup/social_buttons.dart';
 import 'package:e_commerce/features/authentication/screens/signup/widgets/signup_form.dart';
-import 'package:e_commerce/utils/constants/colors.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:e_commerce/utils/constants/text_strings.dart';
 import 'package:e_commerce/utils/helpers/helper_function.dart';
