@@ -1,10 +1,10 @@
-import 'package:e_commerce/utils/theme/custom_themes.dart/appbar_theme.dart';
-import 'package:e_commerce/utils/theme/custom_themes.dart/checkbox_theme.dart';
-import 'package:e_commerce/utils/theme/custom_themes.dart/chip_theme.dart';
-import 'package:e_commerce/utils/theme/custom_themes.dart/elevated_button_theme.dart';
-import 'package:e_commerce/utils/theme/custom_themes.dart/outlined_button_theme.dart';
-import 'package:e_commerce/utils/theme/custom_themes.dart/text_field_theme.dart';
-import 'package:e_commerce/utils/theme/custom_themes.dart/text_theme.dart';
+import 'package:e_commerce/utils/theme/custom_themes/appbar_theme.dart';
+import 'package:e_commerce/utils/theme/custom_themes/checkbox_theme.dart';
+import 'package:e_commerce/utils/theme/custom_themes/chip_theme.dart';
+import 'package:e_commerce/utils/theme/custom_themes/elevated_button_theme.dart';
+import 'package:e_commerce/utils/theme/custom_themes/outlined_button_theme.dart';
+import 'package:e_commerce/utils/theme/custom_themes/text_field_theme.dart';
+import 'package:e_commerce/utils/theme/custom_themes/text_theme.dart';
 import 'package:flutter/material.dart';
 
 class TAppTheme {
