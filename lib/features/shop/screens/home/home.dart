@@ -1,33 +1,26 @@
-import 'package:e_commerce/common/widgets/app_bar/appbar.dart';
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:e_commerce/common/widgets/custom_shapes/containers/circular_container.dart';
 import 'package:e_commerce/common/widgets/custom_shapes/containers/primary_header_container.dart';
 import 'package:e_commerce/common/widgets/custom_shapes/containers/search_container.dart';
-import 'package:e_commerce/common/widgets/custom_shapes/curved_edges/curved_edges.dart';
-import 'package:e_commerce/common/widgets/custom_shapes/curved_edges/curved_edges_widget.dart';
-import 'package:e_commerce/common/widgets/image_text_widgets/vertical_image_text.dart';
-import 'package:e_commerce/common/widgets/products_cart/cart_menu_icon.dart';
+import 'package:e_commerce/common/widgets/images/rounded_image.dart';
 import 'package:e_commerce/common/widgets/texts/section_heading.dart';
 import 'package:e_commerce/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:e_commerce/features/shop/screens/home/widgets/home_categories.dart';
-import 'package:e_commerce/utils/constants/colors.dart';
+import 'package:e_commerce/features/shop/screens/home/widgets/promo_slider.dart';
 import 'package:e_commerce/utils/constants/image_strings.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
-import 'package:e_commerce/utils/constants/text_strings.dart';
-import 'package:e_commerce/utils/device/device_utils.dart';
-import 'package:e_commerce/utils/helpers/helper_function.dart';
 import 'package:flutter/material.dart';
-import 'package:iconsax/iconsax.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: SingleChildScrollView(
         child: Column(
           children: [
-            PrimaryHeaderContainer(
+            const PrimaryHeaderContainer(
               child: Column(
                 children: [
                   // appbar
@@ -42,7 +35,7 @@ class HomeScreen extends StatelessWidget {
 
                   /// categories
                   Padding(
-                    padding: const EdgeInsets.only(left: TSizes.defaultSpace),
+                    padding: EdgeInsets.only(left: TSizes.defaultSpace),
                     child: Column(
                       children: [
                         // Headings
@@ -52,13 +45,25 @@ class HomeScreen extends StatelessWidget {
                           textColor: Colors.white,
                         ),
 
-                        const SizedBox(height: TSizes.spaceBtwSections),
+                        SizedBox(height: TSizes.spaceBtwItems),
 
                         /// Categories
                         HomeCategories(),
                       ],
                     ),
                   ),
+                ],
+              ),
+            ),
+
+            // Body
+            Padding(
+              padding: const EdgeInsets.all(TSizes.defaultSpace),
+              child: PromoSlider(
+                banners: [
+                  TImages.promoBanner1,
+                  TImages.promoBanner2,
+                  TImages.promoBanner3,
                 ],
               ),
             ),
