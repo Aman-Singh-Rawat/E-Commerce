@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class SectionHeading extends StatelessWidget {
   final Color? textColor;
   final bool showActionButton;
@@ -18,6 +17,7 @@ class SectionHeading extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Text(
           title,

@@ -74,6 +74,10 @@ class HomeScreen extends StatelessWidget {
 
                   SizedBox(height: TSizes.spaceBtwSections),
 
+                  SectionHeading(title: "Popular Products", onPressed: () {}),
+
+                  const SizedBox(height: TSizes.spaceBtwItems),
+
                   /// Popular Products
                   GridLayout(
                     itemCount: 2,

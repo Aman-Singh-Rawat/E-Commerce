@@ -17,14 +17,14 @@ class GridLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     return GridView.builder(
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: itemCount,
+        crossAxisCount: 2,
         mainAxisExtent: mainAxisExtent,
         mainAxisSpacing: TSizes.gridViewSpacing,
         crossAxisSpacing: TSizes.gridViewSpacing,
       ),
       physics: const NeverScrollableScrollPhysics(),
       padding: EdgeInsets.zero,
-      itemCount: 4,
+      itemCount: itemCount,
       shrinkWrap: true,
       itemBuilder: itemBuilder,
     );
