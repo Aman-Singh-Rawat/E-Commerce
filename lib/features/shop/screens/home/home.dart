@@ -1,8 +1,11 @@
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:e_commerce/common/styles/shadows.dart';
 import 'package:e_commerce/common/widgets/custom_shapes/containers/circular_container.dart';
 import 'package:e_commerce/common/widgets/custom_shapes/containers/primary_header_container.dart';
 import 'package:e_commerce/common/widgets/custom_shapes/containers/search_container.dart';
 import 'package:e_commerce/common/widgets/images/rounded_image.dart';
+import 'package:e_commerce/common/widgets/layouts/grid_layout.dart';
+import 'package:e_commerce/common/widgets/products/product_cards/product_card_vertical.dart';
 import 'package:e_commerce/common/widgets/texts/section_heading.dart';
 import 'package:e_commerce/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:e_commerce/features/shop/screens/home/widgets/home_categories.dart';
@@ -59,11 +62,23 @@ class HomeScreen extends StatelessWidget {
             // Body
             Padding(
               padding: const EdgeInsets.all(TSizes.defaultSpace),
-              child: PromoSlider(
-                banners: [
-                  TImages.promoBanner1,
-                  TImages.promoBanner2,
-                  TImages.promoBanner3,
+              child: Column(
+                children: [
+                  PromoSlider(
+                    banners: [
+                      TImages.promoBanner1,
+                      TImages.promoBanner2,
+                      TImages.promoBanner3,
+                    ],
+                  ),
+
+                  SizedBox(height: TSizes.spaceBtwSections),
+
+                  /// Popular Products
+                  GridLayout(
+                    itemCount: 2,
+                    itemBuilder: (_, index) => const ProductCardVertical(),
+                  ),
                 ],
               ),
             ),
