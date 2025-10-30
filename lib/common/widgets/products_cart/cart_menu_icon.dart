@@ -11,7 +11,7 @@ class CartCounterIcon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final isDark = THelperFunctions.isDarkMode(context);
-    final myColor;
+    final Color? myColor;
     if (color == null) {
       myColor = isDark ? Colors.white : Colors.black;
     } else {

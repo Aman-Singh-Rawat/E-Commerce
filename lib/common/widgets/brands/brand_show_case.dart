@@ -2,7 +2,6 @@
 import 'package:e_commerce/common/widgets/brands/brand_card.dart';
 import 'package:e_commerce/common/widgets/custom_shapes/containers/rounded_container.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
-import 'package:e_commerce/utils/constants/image_strings.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:e_commerce/utils/helpers/helper_function.dart';
 import 'package:flutter/material.dart';

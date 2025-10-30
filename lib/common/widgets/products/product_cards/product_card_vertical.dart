@@ -4,15 +4,12 @@ import 'package:e_commerce/common/widgets/icons/circular_icon.dart';
 import 'package:e_commerce/common/widgets/images/rounded_image.dart';
 import 'package:e_commerce/common/widgets/texts/brand_title_text_with_verified_icon.dart';
 import 'package:e_commerce/common/widgets/texts/product_price_text.dart';
-import 'package:e_commerce/common/widgets/texts/brand_title_text.dart';
 import 'package:e_commerce/common/widgets/texts/product_title_text.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
-import 'package:e_commerce/utils/constants/enums.dart';
 import 'package:e_commerce/utils/constants/image_strings.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:e_commerce/utils/helpers/helper_function.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get_connect/http/src/utils/utils.dart';
 import 'package:iconsax/iconsax.dart';
 
 class ProductCardVertical extends StatelessWidget {

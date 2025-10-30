@@ -1,9 +1,5 @@
-import 'package:carousel_slider/carousel_slider.dart';
-import 'package:e_commerce/common/styles/shadows.dart';
-import 'package:e_commerce/common/widgets/custom_shapes/containers/circular_container.dart';
 import 'package:e_commerce/common/widgets/custom_shapes/containers/primary_header_container.dart';
 import 'package:e_commerce/common/widgets/custom_shapes/containers/search_container.dart';
-import 'package:e_commerce/common/widgets/images/rounded_image.dart';
 import 'package:e_commerce/common/widgets/layouts/grid_layout.dart';
 import 'package:e_commerce/common/widgets/products/product_cards/product_card_vertical.dart';
 import 'package:e_commerce/common/widgets/texts/section_heading.dart';
@@ -55,6 +51,7 @@ class HomeScreen extends StatelessWidget {
                       ],
                     ),
                   ),
+                  SizedBox(height: TSizes.spaceBtwSections),
                 ],
               ),
             ),

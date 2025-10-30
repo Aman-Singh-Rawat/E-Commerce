@@ -6,7 +6,6 @@ import 'package:e_commerce/features/shop/screens/home/home.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/utils.dart';
 import 'package:iconsax/iconsax.dart';
 
 class FavouriteScreen extends StatelessWidget {
