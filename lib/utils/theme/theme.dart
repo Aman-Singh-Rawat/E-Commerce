@@ -1,3 +1,4 @@
+import 'package:e_commerce/utils/constants/colors.dart';
 import 'package:e_commerce/utils/theme/custom_themes/appbar_theme.dart';
 import 'package:e_commerce/utils/theme/custom_themes/checkbox_theme.dart';
 import 'package:e_commerce/utils/theme/custom_themes/chip_theme.dart';
@@ -34,7 +35,7 @@ class TAppTheme {
     primaryColor: Colors.blue,
     textTheme: TTextTheme.darkInputTextTheme,
     chipTheme: TChipTheme.darkChipTheme,
-    scaffoldBackgroundColor: Colors.black,
+    scaffoldBackgroundColor: TColors.black,
     appBarTheme: TAppbarTheme.darkAppBarTheme,
     checkboxTheme: TCheckboxTheme.darkCheckboxTheme,
     elevatedButtonTheme: TElevatedButtonTheme.darkElevatedButtonTheme,
