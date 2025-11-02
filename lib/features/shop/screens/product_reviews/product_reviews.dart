@@ -4,7 +4,6 @@ import 'package:e_commerce/features/shop/screens/product_reviews/widgets/overall
 import 'package:e_commerce/features/shop/screens/product_reviews/widgets/user_review_card.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 class ProductReviewsScreen extends StatelessWidget {
   const ProductReviewsScreen({super.key});

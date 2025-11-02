@@ -1,7 +1,3 @@
-import 'package:e_commerce/common/widgets/app_bar/appbar.dart';
-import 'package:e_commerce/common/widgets/custom_shapes/curved_edges/curved_edges_widget.dart';
-import 'package:e_commerce/common/widgets/icons/circular_icon.dart';
-import 'package:e_commerce/common/widgets/images/rounded_image.dart';
 import 'package:e_commerce/common/widgets/texts/section_heading.dart';
 import 'package:e_commerce/features/shop/screens/product_details/widgets/bottom_add_to_cart_widget.dart';
 import 'package:e_commerce/features/shop/screens/product_details/widgets/product_attribute.dart';
@@ -9,8 +5,6 @@ import 'package:e_commerce/features/shop/screens/product_details/widgets/product
 import 'package:e_commerce/features/shop/screens/product_details/widgets/product_meta_data.dart';
 import 'package:e_commerce/features/shop/screens/product_details/widgets/rating_share_widget.dart';
 import 'package:e_commerce/features/shop/screens/product_reviews/product_reviews.dart';
-import 'package:e_commerce/utils/constants/colors.dart';
-import 'package:e_commerce/utils/constants/image_strings.dart';
 import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:e_commerce/utils/helpers/helper_function.dart';
 import 'package:flutter/material.dart';
