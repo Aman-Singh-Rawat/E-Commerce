@@ -1,4 +1,3 @@
-
 import 'package:e_commerce/common/widgets/images/rounded_image.dart';
 import 'package:e_commerce/common/widgets/texts/brand_title_text_with_verified_icon.dart';
 import 'package:e_commerce/common/widgets/texts/product_title_text.dart';
@@ -9,9 +8,7 @@ import 'package:e_commerce/utils/helpers/helper_function.dart';
 import 'package:flutter/material.dart';
 
 class CartItem extends StatelessWidget {
-  const CartItem({
-    super.key,
-  });
+  const CartItem({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +25,7 @@ class CartItem extends StatelessWidget {
               : TColors.light,
         ),
         const SizedBox(width: TSizes.spaceBtwItems),
-    
+
         /// Title, Price & Size
         Expanded(
           child: Column(
@@ -40,7 +37,7 @@ class CartItem extends StatelessWidget {
                 title: "Black Sports Shoes",
                 maxLines: 1,
               ),
-    
+
               /// Attributes
               Text.rich(
                 TextSpan(
@@ -50,11 +47,11 @@ class CartItem extends StatelessWidget {
                       style: Theme.of(context).textTheme.bodySmall,
                     ),
                     TextSpan(
-                      text: "Green",
+                      text: " Green ",
                       style: Theme.of(context).textTheme.bodyLarge,
                     ),
                     TextSpan(
-                      text: "Size",
+                      text: "Size ",
                       style: Theme.of(context).textTheme.bodySmall,
                     ),
                     TextSpan(
