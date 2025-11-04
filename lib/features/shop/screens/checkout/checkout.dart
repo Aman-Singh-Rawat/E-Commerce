@@ -13,7 +13,6 @@ import 'package:e_commerce/utils/constants/sizes.dart';
 import 'package:e_commerce/utils/helpers/helper_function.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/utils.dart';
 
 class CheckoutScreen extends StatelessWidget {
   const CheckoutScreen({super.key});

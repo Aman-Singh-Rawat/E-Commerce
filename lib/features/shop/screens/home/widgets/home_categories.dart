@@ -3,7 +3,6 @@ import 'package:e_commerce/features/shop/screens/sub_category/sub_categories.dar
 import 'package:e_commerce/utils/constants/image_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 
 class HomeCategories extends StatelessWidget {
   const HomeCategories({super.key});

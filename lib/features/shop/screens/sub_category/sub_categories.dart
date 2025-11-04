@@ -1,5 +1,4 @@
 import 'package:e_commerce/common/widgets/app_bar/appbar.dart';
-import 'package:e_commerce/common/widgets/custom_shapes/containers/rounded_container.dart';
 import 'package:e_commerce/common/widgets/images/rounded_image.dart';
 import 'package:e_commerce/common/widgets/products/product_cards/product_card_horizontal.dart';
 import 'package:e_commerce/common/widgets/texts/section_heading.dart';
